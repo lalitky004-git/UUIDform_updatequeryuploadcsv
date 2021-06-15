@@ -1,0 +1,7 @@
+drupalform.form:
+ path: '/simpleform/myform'
+ defaults:
+   _title: 'Contact form'
+   _form: '\Drupal\drupalform\Form\SimpleForm'
+ requirements:
+   _permission: 'access content'
